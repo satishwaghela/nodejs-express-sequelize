@@ -3,6 +3,8 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 
+import './models';
+
 import indexRouter from './routes/index';
 import apiRouter from './routes/api';
 
